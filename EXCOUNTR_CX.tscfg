@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Triconex.Config HashCode="c2f69253a9753a14923226395f28c5c3b012b140">
+  <Controller NodeName="TRINODEXYZ" NodeType="TRICON_CX_11.3" HostName1="192.168.1.1" TS2Port="1502" TSAAPort="1500" ProgramName="EXCOUNTR_CX" DownloadedVersion="333.0" DownloadedTime="2016-03-07 00:38:12" CurrentVersion="334.0" NodeNumber="1" DeviceVersion="0" DefaultCOMPort="2" ScanRate="300" TriStationVersion="5.3.0.290">
+    <SOE>
+      <SOEBlocks>
+        <SOEBlock Number="1" Name="BLOCK1" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="2" Name="BLOCK2" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="3" Name="BLOCK3" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="4" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="5" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="6" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="7" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="8" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="9" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="10" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="11" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="12" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="13" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="14" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="15" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="16" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+      </SOEBlocks>
+    </SOE>
+    <Tags>
+      <Tag Name="P1_Count_Out" Bin="102" Offset="0" Type="DINT" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="" Description="" Group1="122" Group2="235" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P1_Count_Out_VAR_IO" Bin="102" Offset="1" Type="DINT" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P1_CountDown" Bin="101" Offset="1" Type="BOOL" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P1_CountLimit" Bin="102" Offset="2" Type="DINT" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P1_CountUp" Bin="101" Offset="0" Type="BOOL" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P2_Count_Out" Bin="11" Offset="1" Type="DINT" AliasNumber="40252" AliasNumberExt="415002" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P2_Count_Out_VAR_IO" Bin="11" Offset="2" Type="DINT" AliasNumber="40253" AliasNumberExt="415003" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P2_CountDown" Bin="101" Offset="3" Type="BOOL" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P2_CountLimit" Bin="11" Offset="0" Type="DINT" AliasNumber="40251" AliasNumberExt="415001" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P2_CountUp" Bin="101" Offset="4" Type="BOOL" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P3_Count_Out" Bin="11" Offset="4" Type="DINT" AliasNumber="40255" AliasNumberExt="415005" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P3_Count_Out_VAR_IO" Bin="11" Offset="5" Type="DINT" AliasNumber="40256" AliasNumberExt="415006" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P3_CountDown" Bin="1" Offset="0" Type="BOOL" AliasNumber="02001" AliasNumberExt="020001" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P3_CountLimit" Bin="11" Offset="3" Type="DINT" AliasNumber="40254" AliasNumberExt="415004" PhysicalAddress="0" SOEBlock="0" TrueStateName="" FalseStateName="" TrueStateColor="" FalseStateColor="" Accessibility="READWRITE_ALIASED" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+      <Tag Name="P3_CountUp" Bin="101" Offset="2" Type="BOOL" AliasNumber="00000" AliasNumberExt="000000" PhysicalAddress="0" SOEBlock="0" TrueStateName="ON" FalseStateName="OFF" TrueStateColor="000000" FalseStateColor="000000" Accessibility="" Description="" Group1="" Group2="" Area="" Equipment="" SIF="" IsHartEnabled="" />
+    </Tags>
+    <COMPorts>
+      <COMPort ID="1" Description="TCM (Tricon CX Communication Module)" Chassis="00" Slot="01" InstalledIn="LEFT" IPAddress="192.168.0.1" Net="NET1" TS2Port="1502" TSAAPort="1500" MulticastIP="0.0.0.0" ModuleID="29" Name="TCM_4355X_CH00_SL01_L_N1" />
+      <COMPort ID="2" Description="TCM (Tricon CX Communication Module)" Chassis="00" Slot="01" InstalledIn="LEFT" IPAddress="192.168.1.1" Net="NET2" TS2Port="1502" TSAAPort="1500" MulticastIP="0.0.0.0" ModuleID="29" Name="TCM_4355X_CH00_SL01_L_N2" />
+    </COMPorts>
+  </Controller>
+</Triconex.Config>
