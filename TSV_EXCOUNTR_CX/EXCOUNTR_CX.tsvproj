@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProject Name="EXCOUNTR_CX" TsvprojVersion="1.0" HashCode="78ff47b2be8cb0a4fc8f458da5cc24e70c172b9d">
+  <TestSuites />
+  <Controllers>
+    <Controller TsCfgFile="EXCOUNTR_CX.tscfg" IsPrimary="True" />
+  </Controllers>
+</TestProject>
