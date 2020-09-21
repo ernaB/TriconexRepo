@@ -1,0 +1,43 @@
+Safety View Configuration Extractor Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Safety View Package Name: PrimarySVPackage.svpkg
+Extracted By: idev\sesa367541
+Date Extracted: 2020-08-27 09:58:56
+
+Workstation Name: ERNAB-NB18
+Operating System: Microsoft Windows 10 Pro
+Operating System Version: 10.0.18362
+Safety View Version: 2.0.0.1248
+Safety View Configuration Extractor Version: 1.0.0.1248
+Safety View Configuration File Version: 1.0.0.296
+
+Number of Configured Monitors: 1
+Number of Detected Physical Monitors: 3
+AutoStart Enabled: False
+Safety View License Details: A Safety View Bypass and Alarm Management license is activated for configurations with 80 screens or less.
+Ports Configured for Use by the Triconex Data Server(s): 4840, 4841, 4842
+
+EXTRACTED FILES
+
+The following files and folders have been extracted from the configuration package and copied to the locations shown below.
+
+--SafetyViewConfig.svcfg Destination: C:\Users\Public\Documents\Triconex\Safety View\Data\SafetyViewConfig.svcfg
+
+--TRINODE001_SV_TRICON_PRJ01_CNTR (CH00_SL01_L_N1) Destination: C:\Users\Public\Documents\Triconex\Triconex Data Server\TRINODE001_SV_TRICON_PRJ01_CNTR (CH00_SL01_L_N1)
+
+--TRINODE022_SV_NODE22_CNTR (CH01_SL03_L_N1) Destination: C:\Users\Public\Documents\Triconex\Triconex Data Server\TRINODE022_SV_NODE22_CNTR (CH01_SL03_L_N1)
+
+--TRINODE04_TRD_BYPASSMAX (CH00_SL02_L_N1) Destination: C:\Users\Public\Documents\Triconex\Triconex Data Server\TRINODE04_TRD_BYPASSMAX (CH00_SL02_L_N1)
+
+--TriconexAutoStartService.tascfg Destination: C:\Users\Public\Documents\Triconex\Triconex Auto Start Service\TriconexAutoStartService.tascfg
+
+RECOMMENDED ACTION ITEMS
+
+To verify that this workstation is ready to be used with the Safety View Bypass and Alarm Management application, complete each of the following items.
+
+--Verify that Windows user accounts have been created for all users that will be using the Safety View Bypass and Alarm Management application on this workstation.
+
+--Create a Windows local permission group named 'Safety View - Second Authentication Required' on the workstation. Assign all users who must obtain additional authorization before performing bypass and GP button operations to this group.
+
+--Verify that all physical monitors have been connected to the workstation, and are set to use the display resolution that was configured in the HMI Designer, with the text size set to 100%
