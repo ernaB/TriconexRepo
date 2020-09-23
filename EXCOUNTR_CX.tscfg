@@ -3,7 +3,7 @@
   <Controller NodeName="ErnaB_   TRINODEXYZ" NodeType="ErnaB_TRICON_CX_11.3" HostName1="192.168.1.1" TS2Port="1502" TSAAPort="1500" ProgramName="EXCOUNTR_CX" DownloadedVersion="333.0" DownloadedTime="2016-03-07 00:38:12" CurrentVersion="334.0" NodeNumber="1" DeviceVersion="0" DefaultCOMPort="2" ScanRate="300" TriStationVersion="5.3.0.290">
     <SOE> erna
       <SOEBlocks>
-        <SOEBlock Number="1" Name="BLOCK1" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="1" Name="ErnaB_BLOCK1" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="2" Name="BLOCK2" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="3" Name="BLOCK3" Type="FIRST OUT" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="4" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />

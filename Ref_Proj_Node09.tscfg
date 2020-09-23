@@ -3,7 +3,7 @@
   <Controller NodeName="TRINODE009" NodeType="TRICON_CX_11.3" HostName1="192.168.1.9" TS2Port="1502" TSAAPort="1500" ProgramName="REF_PROJ_NODE09" DownloadedVersion="32.0" DownloadedTime="2020-09-22 17:24:42" CurrentVersion="32.0" NodeNumber="9" DeviceVersion="0" DefaultCOMPort="2" ScanRate="200" TriStationVersion="5.2.0.234">
     <SOE>
       <SOEBlocks>
-        <SOEBlock Number="1" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
+        <SOEBlock Number="1" Name="" Type="EB_UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="2" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="3" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
         <SOEBlock Number="4" Name="" Type="UNASSIGNED" CollectionType="PRIMARY" CollectionMode="AUTO" />
