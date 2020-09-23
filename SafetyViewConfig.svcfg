@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AlarmManagementConfiguration ConfigVersion="1.0.0.296" ProductVersion="2.0.0" LastCreatedPkgVersion="" ClientId="0" xmlns="http://www.Invensys.com/Triconex/SafetyViewMIB/06/2010" HashCode="4800221e2c2ffc19168b1a9b28e60026c20157436d653f8e9e4e1a523c2e7bf5ff3a509fa2ea92d187ebc3ec1f2a7670ac16f15f4cb2108b1beee00dd6f27057">
   <Settings>
-    <AlarmSettings AlarmViewType="MultiDescription" LoginRequired="true" LoginRequiredForGPOperation="false" EnableAcknowledgeAll="true" GroupAlarmExpanded="false" ByPassFlash="true" ByPassPriority="true" AllowUnbypass="true" />
+    <AlarmSettings AlarmViewType="EB_MultiDescription" LoginRequired="true" LoginRequiredForGPOperation="false" EnableAcknowledgeAll="true" GroupAlarmExpanded="false" ByPassFlash="true" ByPassPriority="true" AllowUnbypass="true" />
     <TextSettings TextColor="#FF000000" TextFont="Arial, 9pt, style=Bold" TextHorizontalAlign="Center" TextVerticalAlign="Center" />
   </Settings>
   <Controllers>
