@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Triconex.OPCUA.Config HashCode="d30debb22ae5ad71ba210bb2fb4c9597fcc6269a0035021017a492cadbde71ed">
+  <Controller PortNumber="1500" SecondaryPortNumber="1502" PrimaryIP="192.168.0.22" SecondaryIP="0.0.0.0" PrimaryMulticastIP="0.0.0.0" SecondaryMulticastIP="0.0.0.0" EnableMulticast="false" EnableRedundancy="false" ReplyTimeout="2000" ConnectionTimeout="3000" HartLiveListPollTime="15" EnableSOE="true" SOEMode="Primary" EnableWrite="true" PrimaryCOM="TCM_4352A/B/AN/BN/BC_CH01_SL03_L_N1" SecondaryCOM="" CurrentVersion="7.4" TscfgPath="SV_NODE22_CNTR.tscfg" ServerIPAddress="0.0.0.0" SecondaryServerIPAddress="0.0.0.0">
+    <ServerCertificate>
+      <Thumbprint>7263FE7146CE96A9CB06A7C78FF457D2B126C37C</Thumbprint>
+      <FriendlyName>ExampleTDS_Server Certificate</FriendlyName>
+      <IssuedTo>ExampleTDS_Server</IssuedTo>
+    </ServerCertificate>
+    <SOEBlocks />
+    <ServerEndpoints>
+      <ServerEndpoint URL="opc.tcp://127.0.0.1:4841/TRINODE022" Description="OPC server endpoint URL">
+        <Security>
+          <Security SecurityMode="None" Required="true" />
+        </Security>
+      </ServerEndpoint>
+    </ServerEndpoints>
+  </Controller>
+</Triconex.OPCUA.Config>
